@@ -112,7 +112,7 @@ const Footer = () => {
       
 
   return (
-    <div className='Footer'>
+    <div className='Footer' id="Footer">
       
       <div className='fcont'>
       <h1> Contact </h1>
@@ -182,13 +182,13 @@ const Footer = () => {
       <div className='ftrsname'> <h3>mohamedriyaz</h3></div>
 
       <div className='ftrlinkedin'>
-     <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+     <a href="https://www.linkedin.com/in/mohamed-riyaz-53456123a" target="_blank" rel="noopener noreferrer">
       <img src={linkedin} className="llogo"alt='linkedinlogo'/>
       </a>
      </div>
 
      <div className='ftrgithub'>
-     <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
+     <a href="https://www.github.com/mdriz22" target="_blank" rel="noopener noreferrer">
       <img src={github} className="glogo"alt='githublogo'/>
       </a>
      </div>

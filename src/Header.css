@@ -86,6 +86,11 @@
       font-size:17px;
     
     }
+
+    .hdrcontact a{
+      text-decoration: none;
+      color: inherit;
+    }
     
     .hdrcontact:hover{
       color:rgb(204, 36, 255) ;

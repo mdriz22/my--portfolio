@@ -17,13 +17,13 @@ const Header = () => {
 
      <div className='block2'>
      <div className='hdrlinkedin'>
-     <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+     <a href="https://www.linkedin.com/in/mohamed-riyaz-53456123a" target="_blank" rel="noopener noreferrer">
       <img src={linkedin} className="llogo"alt='linkedinlogo'/>
       </a>
      </div>
 
      <div className='hdrgithub'>
-     <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
+     <a href="https://www.github.com/mdriz22" target="_blank" rel="noopener noreferrer">
       <img src={github} className="glogo"alt='githublogo'/>
       </a>
      </div>
@@ -42,7 +42,7 @@ const Header = () => {
      </div>
      
      <div className='hdrcontact'>
-      <a>CONTACT ME</a>
+      <a href="#Footer">CONTACT ME</a>
        </div>
 
        <div className='hdrcline'></div>
