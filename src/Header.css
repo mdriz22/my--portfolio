@@ -1,0 +1,830 @@
+
+.Header{
+    position:relative;
+    height:500px;
+    scroll-behavior: smooth;
+    background-color: rgb(21,21,21);
+    }
+    
+    .hdrsname{
+      position: absolute;
+      top:3px;
+      left: 200px;
+    }
+    
+    .hdrname{
+    font-size:26px;
+    padding:15px;
+    position:absolute;
+    top: 100px;
+    left:182px;
+    font-style:normal;
+    font-weight:bold;
+    line-height: 70px; 
+    letter-spacing: 5.5px;
+    width: 900px;
+    text-align: justify;
+    z-index: 2;
+    width:600px;
+    
+    
+    }
+    
+    
+    .hdrdpbackg{
+      background-color: rgb(36,36,36);
+      width: 290px;
+      height: 380px;
+      border-radius:0 0 15px 15px;
+      backdrop-filter:blur(1px);
+      opacity: 0.8;
+      position:absolute;
+      top:0;
+      left: 58.1em; 
+      z-index: 1;
+      border:rgb(36,36,36) 1px solid;
+    }
+    
+    .image-container img{
+    position: absolute;
+    left:931px;
+    top:-88px;
+    height:470px ;
+    width: 290px;
+    z-index:2;
+    }
+    
+    .hdrline{
+      width:440px;
+      height:3px;
+      position:absolute;
+      top:242px;
+      left: 304px;
+      z-index:2;
+      background-color: rgb(204, 36, 255);
+    }
+    
+    .hdrbio{
+      position: absolute;
+      font-weight:normal;
+      font-size:16px;
+      top: 295px;
+      left:200px;
+      width:500px;
+      z-index:2;
+    }
+    
+    .justified-paragraph{
+      text-align: justify;
+    }
+    
+    .hdrcontact{
+      position: absolute;
+      top:450px;
+      left:200px;
+      font-weight: bold;
+      font-size:17px;
+    
+    }
+    
+    .hdrcontact:hover{
+      color:rgb(204, 36, 255) ;
+      cursor: pointer;
+      transition: all .30s;
+      top: 443px;
+      
+    }
+    
+    .hdrcline{
+      position:absolute;
+      width:140px;
+      height:3px;
+      top:480px;
+      left: 190px;
+      background-color: rgb(204, 36, 255);
+    
+    }
+    
+    .llogo{
+    position:absolute;
+    left: 1100px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    z-index:3;
+    
+    }
+    .llogo:hover{
+      transition: all .30s;
+      top: -3px;
+    }
+    
+    .glogo{
+      position:absolute;
+      top:-1.5px;
+      left:1140px;
+      z-index:3;
+      height:33px;
+      width:33px;
+    
+    
+      
+    }
+    
+    .glogo:hover{
+      transition: all .30s;
+      top: -6px;
+    }
+    
+    .hdroval1{
+      position:absolute;
+      left:0px;
+      top:60px;
+      
+    }
+    .ho1{
+      opacity: 0.3;
+      left:0px;
+      width:380px;
+      
+    }
+    
+    .hdroval2{
+      left:0px;
+      position:absolute;
+      top:70px;
+      
+    }
+    .ho2{
+      opacity: 0.3;
+      left:0px;
+      width:380px;
+      
+    }
+    
+    .hdroval3{
+      position:absolute;
+      left:0px;
+      top:80px;
+      
+    }
+    .ho3{
+      opacity: 0.3;
+      left:0px;
+      width:380px;
+      
+    }
+    
+    .hdroval4{
+      position:absolute;
+      top:90px;
+      left:0px;
+      
+    }
+    .ho4{
+      opacity: 0.3;
+      left:0px;
+      width:380px;
+      
+    }
+    
+    .hdroval5{
+      position:absolute;
+      left:0px;
+      top:100px;
+    }
+    .ho5{
+      opacity: 0.3;
+      left:0px;
+      width:380px;
+    }
+    
+    
+    
+    
+    @media  (max-width: 1260px){
+      .Header{
+        padding-right: 100px;
+      }
+      .hdrdpbackg{
+        left:55em;
+      } 
+      .image-container img{
+        left:55em;
+      } 
+      .llogo{
+        left:65em;
+      }
+      .glogo{
+        left:68em;
+      }
+    
+    }
+    
+    @media  (max-width: 1190px){
+      .hdrdpbackg{
+        left:45em;
+      } 
+      .image-container img{
+        left:45em;
+      } 
+      .llogo{
+        left:54em;
+      }
+      .glogo{
+        left:57em;
+      }
+    
+    }
+    
+    @media  (max-width: 1035px){
+      .hdrsname{
+        left:7px;
+      }
+      .hdrname{
+      left:14px;
+      font-size: 26px;
+    
+      }
+      .hdrline{
+        left:140px;
+        width:436px;
+      }
+      .hdrbio{
+        left:29px;
+      }
+      .hdrdpbackg{
+        left:40em;
+        width:259px;
+        height: 350px;
+      } 
+      .hdrcontact{
+        left:29px;
+      }
+      .hdrcline{
+        left:24px;
+        width:124px;
+      }
+      .image-container img{
+        left:40em;
+        width:260px;
+        height:440px;
+        
+      } 
+      .llogo{
+        left:47em;
+      }
+      .glogo{
+        left:50em;
+      }
+    
+    }
+    
+    @media  (max-width: 900px){
+      .Header{
+        margin-right:0;
+        padding-right: 10px;
+      }
+      .hdrsname{
+        left:7px;
+        
+      }
+      .hdrname{
+      left:-6px;
+      top:150px;
+      width:500px;
+      font-size: 23px;
+      z-index:3;
+      
+      }
+      .hdrline{
+        left:105px;
+        top:300px;
+        width:400px;
+        z-index:3;
+      }
+      .hdrbio{
+        left:7px;
+        top:350px;
+      }
+      .hdrdpbackg{
+        left:33em;
+        width:259px;
+        height: 350px;
+       
+        
+      } 
+      .hdrcontact{
+        left:7px;
+        font-size:16px;
+      }
+      .hdrcline{
+        left:4px;
+        top:472px;
+        width:122px;
+      }
+      .image-container img{
+        left:33em;
+        width:260px;
+        height:440px;
+        
+        
+      } 
+      .llogo{
+        left:40em;
+      }
+      .glogo{
+        left:43em;
+      }
+    
+    }
+    
+    @media  (max-width: 790px){
+      .Header{
+        margin-right:0;
+      }
+      .hdrsname{
+        left:7px;
+        
+      }
+      .hdrname{
+      left:-6px;
+      top:150px;
+      width:500px;
+      font-size: 23px;
+      z-index:3;
+      
+      }
+      .hdrline{
+        left:105px;
+        top:300px;
+        width:400px;
+        z-index:3;
+      }
+      .hdrbio{
+        left:7px;
+        top:350px;
+      }
+      .hdrdpbackg{
+        left:25em;
+        width:259px;
+        height: 350px;
+       
+        
+      } 
+      .hdrcontact{
+        left:7px;
+        font-size:16px;
+      }
+      .hdrcline{
+        left:4px;
+        top:472px;
+        width:122px;
+      }
+      .image-container img{
+        left:25em;
+        width:260px;
+        height:440px;
+        
+        
+      } 
+      .llogo{
+        left:33em;
+      }
+      .glogo{
+        left:36em;
+      }
+    
+    }
+    
+    @media  (max-width: 660px){
+      .Header{
+        margin-right:0;
+        height:700px;
+      }
+      .hdrsname{
+        left:7px;
+        z-index:3;
+        
+      }
+      .hdrname{
+      left:77px;
+      top:360px;
+      width:470px;
+      font-size: 20px;
+      z-index:3;
+      
+      }
+      .hdrline{
+        left:180px;
+        top:500px;
+        width:355px;
+        z-index:2;
+      }
+      .hdrbio{
+        
+        left:85px;
+        top:570px;
+        width:470px;
+       
+      }
+      .hdrdpbackg{
+        left:12.5em;
+        width:259px;
+        height: 350px;
+       
+        
+      } 
+      .hdrcontact{
+        top:667px;
+        left:83px;
+        font-size:16px;
+      }
+      .hdrcontact:hover{
+        top:658px;
+      }
+      .hdrcline{
+        left:74px;
+        top:687px;
+        width:122px;
+      }
+      .image-container img{
+        left:12.5em;
+        width:260px;
+        height:440px;
+        
+        
+      } 
+      .llogo{
+        left:15em;
+        
+      }
+      .glogo{
+        left:17em;
+      }
+    
+    }
+    
+    @media  (max-width: 576px){
+      .Header{
+        margin-right:0;
+        height:700px;
+      }
+      .hdrsname{
+        left:7px;
+        z-index:3;
+        
+      }
+      .hdrname{
+      left:-4px;
+      top:360px;
+      width:450px;
+      font-size: 20px;
+      z-index:3;
+      
+      }
+      .hdrline{
+        left:100px;
+        top:500px;
+        width:350px;
+        z-index:2;
+      }
+      .hdrbio{
+        
+        left:7px;
+        top:570px;
+        width:450px;
+       
+      }
+      .hdrdpbackg{
+        left:7em;
+        width:259px;
+        height: 350px;
+       
+        
+      } 
+      .hdrcontact{
+        top:667px;
+        left:7px;
+        font-size:16px;
+      }
+      .hdrcontact:hover{
+        top:658px;
+      }
+      .hdrcline{
+        left:4px;
+        top:687px;
+        width:122px;
+      }
+      .image-container img{
+        left:7em;
+        width:260px;
+        height:440px;
+        
+        
+      } 
+      .llogo{
+        left:15em;
+        
+      }
+      .glogo{
+        left:17em;
+      }
+    
+    }
+
+
+
+    @media (max-width:475px){
+
+        .Header{
+            margin-right:0;
+            height:750px;
+          }
+          .hdrsname{
+            left:7px;
+            font-size:14px;
+            z-index:3;
+            
+          }
+          .hdrname{
+          left:16px;
+          top:380px;
+          padding:0;
+          font-size: 10px;
+          width:356px;
+          font-size: 15.2px;
+          line-height: 42px; 
+          letter-spacing:5px;
+          z-index:3;
+          
+         
+          
+          }
+          .hdrline{
+            left:83px;
+            top:470px;
+            max-width:280px;
+            z-index:2;
+          }
+          .hdrbio{
+            padding:0;
+            left:16px;
+            top:525px;
+            width:356px;
+            
+            
+          }
+          .hdrdpbackg{
+            left:4.2em;
+            width:259px;
+            height: 350px;
+           
+            
+          } 
+          .hdrcontact{
+            top:665px;
+            left:7px;
+            font-size:16px;
+          }
+          .hdrcontact:hover{
+            top:660px;
+          }
+          .hdrcline{
+            left:5px;
+            top:689px;
+            width:122px;
+          }
+          .image-container img{
+            left:4.2em;
+            width:260px;
+            height:440px;
+            
+            
+          } 
+          .llogo{
+            left:13em;
+            top:2px;
+            
+          }
+          .glogo{
+            top:0.8px;
+            left:16em;
+          }
+          
+          .hdroval1{
+            position:absolute;
+            width:314px;
+            left:0px;
+            top:60px;
+            
+          }
+          .ho1{
+            opacity: 0.3;
+            left:0px;
+            width:314px;
+            
+          }
+          
+          .hdroval2{
+            position:absolute;
+            width:314px;
+            left:0px;
+            top:70px;
+            
+          }
+          .ho2{
+            opacity: 0.3;
+            left:0px;
+            width:314px;
+            
+          }
+          
+          .hdroval3{
+            position:absolute;
+            width:314px;
+            left:0px;
+            top:80px;
+            
+          }
+          .ho3{
+            opacity: 0.3;
+            left:0px;
+            width:314px;
+            
+          }
+          
+          .hdroval4{
+            position:absolute;
+            left:0px;
+            width:314px;
+            top:90px;
+            
+          }
+          .ho4{
+            opacity: 0.3;
+            left:0px;
+            width:314px;
+            
+          }
+          
+          .hdroval5{
+            position:absolute;
+            left:0px;
+            top:100px;
+            width:314px;    
+          }
+          .ho5{
+            opacity: 0.3;
+            left:0px;
+            width:314px;
+          }
+    }
+
+
+
+    
+    @media  (max-width: 330px){
+      .Header{
+        margin-right:0;
+        height:750px;
+      }
+      .hdrsname{
+        left:7px;
+        font-size:14px;
+        z-index:3; 
+      }
+      .hdrname{
+      left:15px;
+      top:300px;
+      width:290px;
+      font-size: 14.2px;
+      line-height: 35px; 
+    letter-spacing: 2.4px;
+      z-index:3;
+      
+      }
+      .hdrline{
+        left:73px;
+        top:390px;
+        width:232px;
+        z-index:2;
+      }
+      .hdrbio{
+        
+        left:4px;
+        font-size:12.3px;
+        top:430px;
+        width:310px;
+       
+       
+      }
+      .hdrdpbackg{
+        left:3.5em;
+        width:200px;
+        height: 260px;
+       
+        
+      } 
+      .hdrcontact{
+        top:548px;
+        left:7px;
+        font-size:15px;
+       
+      }
+      .hdrcontact:hover{
+        top:545px;
+      }
+      .hdrcline{
+        left:4px;
+        top:567px;
+        width:110px;
+      }
+      .image-container img{
+        left:3.5em;
+        top:-98px;
+        width:202px;
+        height:360px;
+     
+        
+      } 
+      .llogo{
+        left:10em;
+        width:28px;
+        
+        
+      }
+      .glogo{
+        left:12em;
+        width:33px;
+      
+      }
+    
+      .hdroval1{
+        position:absolute;
+        width:314px;
+        left:0px;
+        top:60px;
+        
+      }
+      .ho1{
+        opacity: 0.3;
+        left:0px;
+        width:314px;
+        
+      }
+      
+      .hdroval2{
+        position:absolute;
+        width:314px;
+        left:0px;
+        top:70px;
+        
+      }
+      .ho2{
+        opacity: 0.3;
+        left:0px;
+        width:314px;
+        
+      }
+      
+      .hdroval3{
+        position:absolute;
+        width:314px;
+        left:0px;
+        top:80px;
+        
+      }
+      .ho3{
+        opacity: 0.3;
+        left:0px;
+        width:314px;
+        
+      }
+      
+      .hdroval4{
+        position:absolute;
+        left:0px;
+        width:314px;
+        top:90px;
+        
+      }
+      .ho4{
+        opacity: 0.3;
+        left:0px;
+        width:314px;
+        
+      }
+      
+      .hdroval5{
+        position:absolute;
+        left:0px;
+        top:100px;
+        width:314px;    
+      }
+      .ho5{
+        opacity: 0.3;
+        width:314px;
+        left:0px;
+      }
+    }

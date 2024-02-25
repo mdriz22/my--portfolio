@@ -1,0 +1,853 @@
+.Footer{
+  position:relative;
+  overflow-x: hidden;
+  background-color: rgb(36,36,36);
+  height:420px;
+  
+}
+
+.fcont {
+  font-size:26px;
+  position:absolute;
+  top:50px;
+  left:200px;
+}
+
+.ftword{
+position:absolute;
+font-size:16px;
+font-weight:normal;
+width:400px;
+top:130px;
+left:200px;
+}
+.fformdiv{
+  position:absolute;
+  left:950px;
+  height:300px;
+  width:300px;
+  /* text-align: justify; */
+}
+.f{
+  margin-top:25px;
+  background:none;
+  border:none;
+  outline:none;
+  user-select: none;
+  color: white;
+  height:50px;
+  width:290px;
+}
+
+#formmsg{
+  height:70px;
+  width:290px;
+  resize: none;
+}
+.fnameline{
+  position:absolute;
+  width:280px;
+  border:white 1px solid;
+  right:30px;
+}
+.fnamelineerr{
+  position:absolute;
+  width:280px;
+  border:red 1px solid;
+  right:30px; 
+}
+
+
+.femailline{
+  position:absolute;
+  width:280px;
+  border:white 1px solid;
+  right:30px;
+}
+
+.femaillineerr{
+  position:absolute;
+  width:280px;
+  border:red 1px solid;
+  right:30px;
+}
+
+
+
+.fmsgline{
+  position:absolute;
+  width:280px;
+  border:white 1px solid;
+  right:30px;
+}
+
+.fmsglineerr{
+  position:absolute;
+  width:280px;
+  border:red 1px solid;
+  right:30px;
+}
+
+.errormsgname{
+  color:red;
+  font-size: 16px;
+  position: absolute;
+  left:140px;
+  top:80px;
+  margin-top: 1.5px;
+}
+
+
+.errormsgemail{
+  color:red;
+  font-size: 16px;
+  position: absolute;
+  top:157px;
+  left:140px;
+  margin-top: 1.5px;
+}
+
+.errormsgmsg{
+  color:red;
+  font-size: 16px;
+  position: absolute;
+  top:260px;
+  left:140px;
+  margin-top: 1.5px;
+}
+
+
+
+.fbtn{
+  position:absolute;
+  top:320px;
+  left:160px;
+  background: none;
+  border:none;
+  outline:none;
+  color: white;
+  font-weight:bold;
+  cursor: pointer;
+}
+.fbtn:hover{
+color:rgb(204, 36, 255) ;
+transition: all .50s;
+  top: 314px;
+}
+.fbtnline{
+  position: absolute;
+  top:342px;
+  left:167px;
+  width:105px;
+  border:rgb(204, 36, 255) 1px solid;
+}
+
+.submitted-msg-div{
+position:absolute;
+top:120px;
+left:990px;
+height:100px;
+width:200px;
+border:white 1px solid;
+}
+.submitted-msg{
+  position:absolute;
+  top:15px;
+  left:42px;
+}
+
+.ftroval1{
+  position:absolute;
+  top:180px;
+  
+}
+.ho1{
+  opacity: 0.3;
+  left:0px;
+  width:380px;
+  
+}
+
+.ftroval2{
+  position:absolute;
+  left:0px;
+  top:190px;
+  
+}
+.ho2{
+  opacity: 0.3;
+  left:0px;
+  width:380px;
+  
+}
+
+.ftroval3{
+  position:absolute;
+  left:0px;
+  top:200px;
+  
+}
+.ho3{
+  opacity: 0.3;
+  left:0px;
+  width:380px;
+  
+}
+
+.ftroval4{
+  position:absolute;
+  left:0px;
+  top:210px;
+  
+}
+.ho4{
+  opacity: 0.3;
+  left:0px;
+  width:380px;
+  
+}
+
+.ftroval5{
+  position:absolute;
+  left:0px;
+  top:220px;
+  
+}
+.ho5{
+  opacity: 0.3;
+  left:0px;
+  width:380px;
+}
+
+.ftlline{
+  position:absolute;
+  width:1023px;
+  border:rgb(255, 255, 255) 1px solid;
+ left:200px;
+  top:365px;
+}
+
+.ftrsname{
+  position: absolute;
+  top:375px;
+  left:200px;
+}
+
+.ftrlinkedin{
+  position:absolute;
+  top:375px;
+ 
+}
+
+.ftrgithub{
+  position: absolute;
+  top:375px;
+  
+}
+
+
+
+
+
+
+
+
+@media(max-width:1264px){
+.fcont{
+    
+}
+.ftword{
+
+}
+.fformdiv{
+   
+    left:880px;
+    margin-right:10px;
+    margin-left:-10px;
+}    
+
+.submitted-msg-div{
+  position:absolute;
+  top:120px;
+  left:880px;
+  height:100px;
+  width:200px;
+  border:white 1px solid;
+  }
+  .submitted-msg{
+    position:absolute;
+    top:15px;
+    left:42px;
+  }
+
+.ftlline{
+    width:940px;
+}
+
+.ftrlinkedin{
+    left:-100px;
+}
+
+.ftrgithub{
+    left:-90px;
+}
+  
+}
+
+
+@media(max-width:1190px){
+    .fcont{
+        
+    }
+    .ftword{
+   
+    }
+    .fformdiv{
+       
+        left:780px;
+        margin-right:10px;
+        margin-left:-10px;
+    }    
+    .submitted-msg-div{
+      left:780px;
+    }
+    
+    .ftlline{
+        width:840px;
+    }
+    
+    .ftrlinkedin{
+        left:-100px;
+    }
+    
+    .ftrgithub{
+        left:-90px;
+    }
+}
+
+@media(max-width:1086px){
+    .fcont{
+       
+        font-size: 23px;
+    }
+    .ftword{
+    
+    font-size:14px;
+    width:360px;
+    }
+    .fformdiv{
+       
+        left:720px;
+        margin-right:10px;
+        margin-left:-10px;
+    }    
+    .submitted-msg-div{
+      left:720px;
+    }
+    .ftlline{
+        width:795px;
+    }
+    
+    .ftrlinkedin{
+        left:-100px;
+    }
+    
+    .ftrgithub{
+        left:-90px;
+    }
+}
+
+@media(max-width:1035px){
+    .fcont{
+       
+        left:18px;
+    }
+    .ftword{
+   
+    left:18px;
+    }
+    .fformdiv{
+       
+        left:630px;
+        margin-right:10px;
+        margin-left:-10px;
+    }    
+    .submitted-msg-div{
+      left:630px;
+    }
+    .ftlline{
+        left:18px;
+        width:875px;
+    }
+    
+    .ftrlinkedin{
+        left:-40px;
+    }
+    
+    .ftrgithub{
+        left:-30px;
+    }
+    .ftrsname{
+        left:18px;
+    }
+
+    .ftroval1{
+        position:absolute;
+        left:0px;
+        top:180px;
+        
+      }
+      .ho1{
+        opacity: 0.3;
+        left:0px;
+        width:300px;
+        
+      }
+      
+      .ftroval2{
+        position:absolute;
+        left:0px;
+        top:190px;
+        
+      }
+      .ho2{
+        opacity: 0.3;
+        left:0px;
+        width:300px;
+        
+      }
+      
+      .ftroval3{
+        position:absolute;
+        left:0px;
+        top:200px;
+        
+      }
+      .ho3{
+        opacity: 0.3;
+        left:0px;
+        width:300px;
+        
+      }
+      
+      .ftroval4{
+        position:absolute;
+        left:0px;
+        top:210px;
+        
+      }
+      .ho4{
+        opacity: 0.3;
+        left:0px;
+        width:300px;
+        
+      }
+      
+      .ftroval5{
+        position:absolute;
+        left:0px;
+        top:220px;
+        
+      }
+      .ho5{
+        opacity: 0.3;
+        left:0px;
+        width:300px;
+      }
+}
+
+@media(max-width:936px){
+    .fformdiv{
+        left:560px;
+    }   
+    .ftlline{
+        width:804px;
+    }
+}
+
+@media(max-width:866px){
+    .fformdiv{
+        left:500px;
+    }   
+    .ftlline{
+        width:750px;
+    }
+}
+
+@media(max-width:806px){
+    .Footer{
+        height:730px;
+    }
+    .fcont{
+        left:290px;
+    }
+    .ftword{
+        left:190px;
+    }
+    
+    .fformdiv{
+        top:220px;
+        left:240px;
+    }
+    .submitted-msg-div{
+      left:240px;
+    }
+
+    .ftlline{
+        width:744px;
+        top:650px;
+    }
+
+    .ftrlinkedin{
+        left:-40px;
+        top:665px;
+    }
+    
+    .ftrgithub{
+        left:-30px;
+        top:665px;
+    }
+    .ftrsname{
+        left:18px;
+        top:670px;
+    }
+
+    .ftroval1{
+        position:absolute;
+        top:500px;
+        
+      }
+      .ho1{
+        opacity: 0.3;
+        width:300px;
+        
+      }
+      
+      .ftroval2{
+        position:absolute;
+        top:510px;
+        
+      }
+      .ho2{
+        opacity: 0.3;
+        width:300px;
+        
+      }
+      
+      .ftroval3{
+        position:absolute;
+        top:520px;
+        
+      }
+      .ho3{
+        opacity: 0.3;
+        width:300px;
+        
+      }
+      
+      .ftroval4{
+        position:absolute;
+        top:530px;
+        
+      }
+      .ho4{
+        opacity: 0.3;
+        width:300px;
+        
+      }
+      
+      .ftroval5{
+        position:absolute;
+        top:540px;
+        
+      }
+      .ho5{
+        opacity: 0.3;
+        width:300px;
+      }
+}
+
+@media(max-width:778px){
+    .ftlline{
+        width:675px;
+    }
+}
+
+@media(max-width:709px){
+    .ftlline{
+        width:635px;
+    }
+}
+
+@media(max-width:675px){
+    .fcont{
+        left:250px;
+    }
+    .ftword{
+        left:140px;
+    }
+    
+    .fformdiv{
+        top:220px;
+        left:175px;
+    }
+    .submitted-msg-div{
+      left:175px;
+    }
+    .ftlline{
+        width:600px;
+        top:650px;
+    }
+
+    .ftrlinkedin{
+        left:-40px;
+        top:665px;
+    }
+    
+    .ftrgithub{
+        left:-30px;
+        top:665px;
+    }
+    .ftrsname{
+        left:18px;
+        top:670px;
+    }
+
+    .ftroval1{
+        position:absolute;
+        left:0px;
+        top:500px;
+        
+      }
+      .ho1{
+        opacity: 0.3;
+        left:0px;
+        width:200px;
+        
+      }
+      
+      .ftroval2{
+        position:absolute;
+        left:0px;
+        top:510px;
+        
+      }
+      .ho2{
+        opacity: 0.3;
+        left:0px;
+        width:200px;
+        
+      }
+      
+      .ftroval3{
+        position:absolute;
+        left:0px;
+        top:520px;
+        
+      }
+      .ho3{
+        opacity: 0.3;
+        left:0px;
+        width:200px;
+        
+      }
+      
+      .ftroval4{
+        position:absolute;
+        left:0px;
+        top:530px;
+        
+      }
+      .ho4{
+        opacity: 0.3;
+        left:0px;
+        width:200px;
+        
+      }
+      
+      .ftroval5{
+        position:absolute;
+        left:0px;
+        top:540px;
+        
+      }
+      .ho5{
+        opacity: 0.3;
+        left:0px;
+        width:200px;
+      }
+}
+
+@media(max-width:660px){
+    .ftrlinkedin{
+        left:200px;
+        top:665px;
+    }
+    
+    .ftrgithub{
+        left:230px;
+        top:665px;
+    }
+}
+
+@media(max-width:634px){
+    .ftlline{
+        width:550px;
+        top:650px;
+    }
+    
+}
+@media(max-width:591px){
+    .fcont{
+        left:200px;
+    }
+    .ftword{
+        left:100px;
+    }
+    
+    .fformdiv{
+        top:220px;
+        left:140px;
+    }
+    .submitted-msg-div{
+      top:290px;
+      left:150px;
+    }
+
+    .ftlline{
+        width:530px;
+        top:650px;
+    }
+    .ftrlinkedin{
+        left:100px;
+        top:665px;
+        
+    }
+    
+    .ftrgithub{
+        left:130px;
+        top:665px;
+       
+    }
+
+    .ftrsname{
+        left:18px;
+        top:670px;
+    }
+}
+
+@media(max-width:548px){
+    .ftlline{
+        width:480px;
+
+    }
+}
+
+@media(max-width:498px){
+  .fcont{
+    left:150px;
+  }
+  .ftword{
+   left:50px;
+  }
+  .fformdiv{
+   left:100px;
+  }
+  .submitted-msg-div{
+    left:100px;
+  }
+  .ftlline{
+    width:450px;
+}
+
+.ftrlinkedin{
+  left:70px;
+  top:665px;
+  
+}
+
+.ftrgithub{
+  left:80px;
+  top:664px;
+}
+
+}
+
+@media(max-width:469px){
+  .ftlline{
+    width:420px;
+}
+}
+@media(max-width:439px){
+  .fcont{
+    left:140px;
+  }
+  .ftword{
+   left:40px;
+  }
+  .fformdiv{
+   left:90px;
+  }
+  .submitted-msg-div{
+    left:90px;
+  }
+  .ftlline{
+    width:400px;
+}
+}
+
+@media(max-width:419px){
+  .fcont{
+    left:120px;
+  }
+  .ftword{
+    left:21.5px;
+  }
+  .fformdiv{
+    left:68.5px;
+  }
+  .submitted-msg-div{
+    left:90px;
+  }
+  .ftlline{
+    left:20px;
+    width:360px;
+  }
+  
+}
+
+@media(max-width:383px){
+  .fcont{
+    left:100px;
+    border:green 1px solid;
+  }
+  .ftword{
+    left:12px;
+  }
+  .fformdiv{
+    left:57px;
+  }
+  .submitted-msg-div{
+    left:89px;
+  }
+  .ftlline{
+    width:340px;
+  }
+
+  .ftrlinkedin{
+    left:60px;
+    top:665px;
+  }
+  
+  .ftrgithub{
+    left:65px;
+    top:665px;
+  }
+}
+
+@media(max-width:373px){
+  .ftword{
+    left:20px;
+    width:330px;
+  }
+}
