@@ -155,7 +155,7 @@ const Footer = () => {
      ):(
       <div className='submitted-msg-div'>
       <h2 className='submitted-msg'>Thanks for submittion</h2></div>
-     )}
+      )} 
       
       <div className='ftroval1'>
         <img src={oval} alt="oval" className='ho1'/>

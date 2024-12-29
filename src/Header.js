@@ -11,7 +11,7 @@ const Header = () => {
 
      <div className='hdrsname'> <h3>mohamedriyaz</h3></div>
       <div className='hdrname'>
-     <h1>Nice to meet you!<br/>I'm Mohamed Riyaz</h1></div>
+     <h2>Nice to meet you!<br/>I'm Mohamed Riyaz</h2></div>
      <div className='hdrline'></div>
 
 

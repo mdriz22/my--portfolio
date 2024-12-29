@@ -126,12 +126,12 @@ left:200px;
   border:none;
   outline:none;
   color: white;
-  font-weight:bold;
+  font-weight:600;
   cursor: pointer;
 }
 .fbtn:hover{
 color:rgb(204, 36, 255) ;
-transition: all .50s;
+transition: all 0.70s;
   top: 314px;
 }
 .fbtnline{
@@ -819,7 +819,7 @@ border:white 1px solid;
 @media(max-width:383px){
   .fcont{
     left:100px;
-    border:green 1px solid;
+    
   }
   .ftword{
     left:12px;
@@ -843,11 +843,38 @@ border:white 1px solid;
     left:65px;
     top:665px;
   }
+  .ftrsname{
+    font-size: 12px;
+  }
 }
 
 @media(max-width:373px){
   .ftword{
     left:20px;
     width:330px;
+  }
+}
+
+@media(max-width:351px){
+
+  .fcont{
+    left:83px;
+    
+  }
+  .ftword{
+    left:12px;
+    width:305px;
+    font-size: 12.3px;
+    
+  }
+  .fformdiv{
+    left:35px;
+    
+  }
+  .submitted-msg-div{
+    left:72px;
+  }
+  .ftrsname{
+    font-size:12px;
   }
 }

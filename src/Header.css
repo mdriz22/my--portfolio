@@ -13,7 +13,7 @@
     }
     
     .hdrname{
-    font-size:26px;
+    font-size:30px;
     padding:15px;
     position:absolute;
     top: 100px;
@@ -32,34 +32,35 @@
     
     
     .hdrdpbackg{
-      background-color: rgb(36,36,36);
+      background-color: rgba(255, 255, 255, 0.122);
       width: 290px;
       height: 380px;
-      border-radius:0 0 15px 15px;
-      backdrop-filter:blur(1px);
+      border-radius:15px 15px 15px 15px;
+      backdrop-filter:blur(3px);
       opacity: 0.8;
       position:absolute;
       top:0;
       left: 58.1em; 
       z-index: 1;
-      border:rgb(36,36,36) 1px solid;
+      border:rgba(255, 254, 254, 0.185) 1px solid;
     }
     
     .image-container img{
     position: absolute;
     left:931px;
-    top:-88px;
+    border-radius: 15px;
+    top:-89px;
     height:470px ;
     width: 290px;
     z-index:2;
     }
     
     .hdrline{
-      width:440px;
+      width:420px;
       height:3px;
       position:absolute;
       top:242px;
-      left: 304px;
+      left: 290px;
       z-index:2;
       background-color: rgb(204, 36, 255);
     }
@@ -82,7 +83,7 @@
       position: absolute;
       top:450px;
       left:200px;
-      font-weight: bold;
+      font-weight: 600;
       font-size:17px;
     
     }
@@ -95,7 +96,7 @@
     .hdrcontact:hover{
       color:rgb(204, 36, 255) ;
       cursor: pointer;
-      transition: all .30s;
+      transition: all .70s;
       top: 443px;
       
     }
@@ -223,6 +224,7 @@
       .glogo{
         left:68em;
       }
+      
     
     }
     
@@ -292,7 +294,7 @@
       }
       .hdrsname{
         left:7px;
-        
+      
       }
       .hdrname{
       left:-6px;
@@ -340,6 +342,12 @@
       }
       .glogo{
         left:43em;
+      }
+
+      .hdrline{
+        
+        left: 85px;
+        width:340px;
       }
     
     }
@@ -467,7 +475,12 @@
       .glogo{
         left:17em;
       }
-    
+      .hdrline{
+        width:310px;
+        
+        left: 160px;
+        
+      }
     }
     
     @media  (max-width: 576px){
@@ -535,192 +548,106 @@
       .glogo{
         left:17em;
       }
+      .hdrline{
+        width:310px;
+        
+        left: 80px;
+        
+      }
     
     }
 
 
-
-    @media (max-width:475px){
-
-        .Header{
-            margin-right:0;
-            height:750px;
-          }
-          .hdrsname{
-            left:7px;
-            font-size:14px;
-            z-index:3;
-            
-          }
-          .hdrname{
-          left:16px;
-          top:380px;
-          padding:0;
-          font-size: 10px;
-          width:356px;
-          font-size: 15.2px;
-          line-height: 42px; 
-          letter-spacing:5px;
-          z-index:3;
-          
-         
-          
-          }
-          .hdrline{
-            left:83px;
-            top:470px;
-            max-width:280px;
-            z-index:2;
-          }
-          .hdrbio{
-            padding:0;
-            left:16px;
-            top:525px;
-            width:356px;
-            
-            
-          }
-          .hdrdpbackg{
-            left:4.2em;
-            width:259px;
-            height: 350px;
-           
-            
-          } 
-          .hdrcontact{
-            top:665px;
-            left:7px;
-            font-size:16px;
-          }
-          .hdrcontact:hover{
-            top:660px;
-          }
-          .hdrcline{
-            left:5px;
-            top:689px;
-            width:122px;
-          }
-          .image-container img{
-            left:4.2em;
-            width:260px;
-            height:440px;
-            
-            
-          } 
-          .llogo{
-            left:13em;
-            top:2px;
-            
-          }
-          .glogo{
-            top:0.8px;
-            left:16em;
-          }
-          
-          .hdroval1{
-            position:absolute;
-            width:314px;
-            left:0px;
-            top:60px;
-            
-          }
-          .ho1{
-            opacity: 0.3;
-            left:0px;
-            width:314px;
-            
-          }
-          
-          .hdroval2{
-            position:absolute;
-            width:314px;
-            left:0px;
-            top:70px;
-            
-          }
-          .ho2{
-            opacity: 0.3;
-            left:0px;
-            width:314px;
-            
-          }
-          
-          .hdroval3{
-            position:absolute;
-            width:314px;
-            left:0px;
-            top:80px;
-            
-          }
-          .ho3{
-            opacity: 0.3;
-            left:0px;
-            width:314px;
-            
-          }
-          
-          .hdroval4{
-            position:absolute;
-            left:0px;
-            width:314px;
-            top:90px;
-            
-          }
-          .ho4{
-            opacity: 0.3;
-            left:0px;
-            width:314px;
-            
-          }
-          
-          .hdroval5{
-            position:absolute;
-            left:0px;
-            top:100px;
-            width:314px;    
-          }
-          .ho5{
-            opacity: 0.3;
-            left:0px;
-            width:314px;
-          }
+  @media (max-width:476px){
+    .Header{
+      margin-right:0;
+      margin-left:0;
+      height:750px;
+      
     }
-
+    .hdrname{
+      left:-3px;
+      top:360px;
+      width:360px;
+      font-size: 19px;
+      z-index:3;
+      
+    }
+    .hdrbio{
+      
+      left:7px;
+     
+      width:370px;
+     
+    }
+    .hdrline{
+      width:290px;
+      
+      left: 75px; 
+    }
+    .hdrcontact{
+      top:707px;
+      left:7px;
+      font-size:16px;
+    }
+    .hdrcontact:hover{
+      top:698px;
+    }
+    .hdrcline{
+      left:4px;
+      top:729px;
+      width:122px;
+    }
+  }
+  
+  @media (max-width:430px){
+    .block2{
+      position: absolute;
+      left: -40px;
+    }
+  }
 
 
     
-    @media  (max-width: 330px){
+    @media  (max-width: 387px){
       .Header{
         margin-right:0;
         height:750px;
+       
       }
       .hdrsname{
         left:7px;
-        font-size:14px;
+        font-size:12px;
         z-index:3; 
       }
       .hdrname{
       left:15px;
       top:300px;
       width:290px;
-      font-size: 14.2px;
+      font-size: 17px;
       line-height: 35px; 
     letter-spacing: 2.4px;
       z-index:3;
       
+    
+      
       }
       .hdrline{
+        position: absolute;
         left:73px;
-        top:390px;
+        top: 390px;
         width:232px;
-        z-index:2;
+        
+        
       }
       .hdrbio{
         
         left:4px;
         font-size:12.3px;
         top:430px;
-        width:310px;
+        width:333px;
+        
+        
        
        
       }
@@ -731,10 +658,16 @@
        
         
       } 
+
+      .block2{
+        position: absolute;
+        left:20px;
+      }
+
       .hdrcontact{
         top:548px;
         left:7px;
-        font-size:15px;
+        font-size:12px;
        
       }
       .hdrcontact:hover{
@@ -743,7 +676,7 @@
       .hdrcline{
         left:4px;
         top:567px;
-        width:110px;
+        width:90px;
       }
       .image-container img{
         left:3.5em;
@@ -832,4 +765,43 @@
         width:314px;
         left:0px;
       }
+   
+   
     }
+    @media  (max-width: 340px){
+      .block2{
+        position: absolute;
+        left:8px;
+      }
+
+      .hdrname{
+        left:15px;
+        top:300px;
+        width:270px;
+        font-size: 16px;
+        line-height: 35px; 
+      letter-spacing: 2.4px;
+        z-index:3;
+      
+        
+        }
+        .hdrline{
+          position: absolute;
+          left:73px;
+          top: 390px;
+          width:232px;
+          
+          
+        }
+        .hdrbio{
+          
+          left:4px;
+          font-size:12.1px;
+          top:430px;
+          width:313px;
+          
+         
+         
+        }
+    }
+    
