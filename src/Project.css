@@ -1,7 +1,36 @@
-/* .project{
+.Project{
   position:relative;
-  background-color: brown;
-  height:420px;
-  border:gold 4px solid;
-  width:500px;
-} */
+  background-color: rgb(21,21,21);
+  height:auto;
+  padding: 10px;
+  
+  /* width: 100%; */
+ 
+  color: white;
+  
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center ;
+
+}
+
+.prjt_head{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+  
+}
+
+.prjt_body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  width:100%;
+  
+}
+

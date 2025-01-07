@@ -2,8 +2,11 @@
 .Header{
     position:relative;
     height:500px;
+  
+    
     scroll-behavior: smooth;
     background-color: rgb(21,21,21);
+   
     }
     
     .hdrsname{
@@ -607,7 +610,11 @@
     }
   }
 
-
+  @media(max-width:400px){
+    .hdrsname{
+      font-size:12px; 
+    }
+  }
     
     @media  (max-width: 387px){
       .Header{
@@ -617,7 +624,7 @@
       }
       .hdrsname{
         left:7px;
-        font-size:12px;
+        font-size:10px;
         z-index:3; 
       }
       .hdrname{
