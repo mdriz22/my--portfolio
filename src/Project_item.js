@@ -10,32 +10,37 @@ const Project_item = ({project_image,link,project_heading,project_description,te
  
     
 
-    useEffect(() => {
-        const sections = document.querySelectorAll('section');
-      
-        const handleScroll = () => {
-          const top = window.scrollY;
-          
-          sections.forEach((sect) => {
-            const offsetTop = sect.offsetTop+ window.innerHeight * 0.25;
-            const offsetBottom = sect.offsetTop + sect.offsetHeight;
-      
-            // If the top of the section has scrolled past the top of the viewport
-            if (top >= offsetBottom) {
-              sect.classList.add('active');
-            } else if (top < offsetTop + sect.offsetHeight && top + window.innerHeight > offsetTop) {
-              // Add .active if the section is in the visible area
-              sect.classList.remove('active');
-            }
-          });
-        };
-      
-        window.addEventListener('scroll', handleScroll);
-      
-        return () => {
-          window.removeEventListener('scroll', handleScroll);
-        };
-      }, []);
+  useEffect(() => {
+    const sections = document.querySelectorAll('section');
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            
+            entry.target.classList.add('active');
+          } else {
+            
+            entry.target.classList.remove('active');
+          }
+        });
+      },
+      {
+        root: null, 
+        rootMargin: '0px', 
+        threshold: 0.25, 
+      }
+    );
+
+    
+    sections.forEach((section) => observer.observe(section));
+
+    
+    return () => {
+      sections.forEach((section) => observer.unobserve(section));
+    };
+  }, []);
+
       
       
       
